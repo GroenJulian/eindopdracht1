@@ -1,0 +1,259 @@
+/*Pagina 1*/
+
+body {
+    margin: 0;
+    height: 120vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    overflow-x: hidden;
+    background: url("photos/fotointro.jpg") no-repeat;
+}
+
+
+/*De bovenkant*/
+
+header {
+    position: fixed;
+    width: 100vw;
+}
+
+nav {
+    background-color: red;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 200vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: red;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.active {
+    background-color: #ba0000;
+}
+
+/*Tekst gedeelte*/
+h1 {
+    font-size: 5rem;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    /*padding-left: 50vh;*/
+    color: rgba(244, 239, 255, 0.76);
+
+}
+
+.onderh1 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgba(244, 239, 255, 0.76);
+    text-align: center;
+    padding-bottom: 5vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+.informatie {
+    padding: 5vh 20vh;
+}
+
+.opleiding {
+    width: 100%;
+    background: url("photos/fotointro.jpg") fixed no-repeat;
+    text-align: left;
+    padding: 5vh 20vh;
+}
+
+.informatie a {
+    color: red;
+}
+
+.opleiding a {
+    color: red;
+}
+
+.geleerdinfo {
+    background: url("photos/fotointro.jpg") fixed;
+    text-align: left;
+    padding: 5vh 20vh;
+}
+
+p {
+    line-height: 1.618;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.questions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: url("photos/fotointro.jpg") fixed no-repeat;
+}
+
+.QenA {
+    padding: 5vh 20vh;
+    width: 25vw;
+}
+
+.bovenstetabel {
+    margin-top: 2vh;
+}
+
+table, th, td {
+    border: 1px solid white;
+    color: white;
+}
+
+td {
+    width: 20vw;
+    height: 20vh;
+}
+
+/*Foto's op pagina 1*/
+
+.foto {
+    height: 30vh;
+    width: 100vw;
+}
+
+.één {
+    background: url("photos/gtr.jpg") fixed no-repeat;
+    background-size: cover;
+}
+
+.twee {
+    background: url("photos/rotterdam.jpg") fixed;
+}
+
+.drie {
+    background: url("photos/m4.jpg") fixed;
+}
+
+.vier {
+    background: url("photos/rocketbunny.jpg") fixed;
+}
+
+.copyright {
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.eerste {
+    padding-top: 5vh;
+}
+
+
+/*Pagina 2*/
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+.container {
+    height: 90vh;
+    width: 57vw;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: 42vh;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    margin-bottom: 10vh;
+}
+
+/*Pagina 3*/
+
+label {
+    display: block;
+    padding-top: 10px;
+}
+
+#button {
+    margin-top: 20px;
+}
+
+fieldset {
+    width: 20vw;
+    margin: 0;
+    display: inline-block;
+}
+
+textarea {
+    max-height: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    min-width: 300px;
+}
+
+.vraagplaatje {
+    display: inline;
+    padding-left: 10vh;
+}
+
+h2 {
+    padding-top: 10vh;
+}
+
+.contactP {
+    color: #000;
+    padding-right: 2vh;
+}
+
+.bold-noline {
+    font-weight: bold;
+}
+
+/*Pagina 4*/
+
+.bedankt {
+    margin-top: 20vh;
+}
+
+.tekstp3 {
+    text-align: center;
+}
+
+.tekstp3 a {
+    color: red;
+}

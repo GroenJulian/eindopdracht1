@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Info</title>
+    <link rel="icon" href="photos/portfolio.jpg">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!--Dit is de nav bar-->
+<header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a></li>
+
+            <li>
+                <a href="fotogallerij.html">Photo Gallery</a></li>
+
+            <li class="active">
+                <a href="#">Contact Info</a></li>
+        </ul>
+    </nav>
+
+
+</header>
+
+<h1>Contact Info</h1>
+
+<main>
+
+    <div class="container">
+
+        <!--Formulier-->
+        <fieldset>
+            <legend>Contact Formulier</legend>
+            <form method="post" action="bedankt.html">
+                <label for="voornaam">Voornaam:</label>
+                <input type="text" id="voornaam" required>
+
+                <label for="achternaam">Achternaam:</label>
+                <input type="text" id="achternaam" required>
+
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+
+                <label>Wat wilt u kwijt?</label>
+                <textarea rows="5" cols="35" placeholder="Type hier wat u wilt vragen" required></textarea>
+                <br>
+
+                <input id="button" type="submit">
+
+            </form>
+        </fieldset>
+
+        <!--Zijkant plaatje-->
+        <img class="vraagplaatje" src="photos/vragen">
+
+        <!--Contact informatie-->
+        <h2>Contact Infromatie:</h2>
+
+        <p class="contactP"><span class="bold-noline">Naam:</span> Julian Groen<br><span
+                class="bold-noline">Woonplaats:</span> Eliotplaats 360, Rotterdam<br><span
+                class="bold-noline">E-mail:</span>
+            juliangroen99@gmail.com<br><span class="bold-noline">Telefoon nummer:</span> +31 0637356514</p>
+
+    </div>
+
+    <p class="copyright">© 2017 JULIAN GROEN ALL RIGHTS RESERVED</p>
+
+</main>
+</body>
+</html>
